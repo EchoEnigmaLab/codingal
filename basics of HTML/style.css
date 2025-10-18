@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:aliceblue;
+}
+h1{
+    color:bisque;
+}
+a{
+    color:cadetblue;
+}
+a:hover{
+    color:chartreuse;
+}
+ul > li{
+    font-weight: bold;
+}
+ul li:nth-child(3){
+    background-color: darkolivegreen;
+}
+ul li:hover{
+    color:deeppink;
+}
+
+p::first-letter{
+    font-size: 200%;
+    color:crimson;
+}
